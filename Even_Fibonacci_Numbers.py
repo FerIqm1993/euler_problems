@@ -15,4 +15,14 @@ for index in range(0, number_of_terms - 2):
 # Showing the sequence
 print(fibonacci)
 
+# Using a funtion
+def fibonachi(n):
+    a,b=0,1
+    while a<n:
+        print(a,end=",")
+        a,b = b, a+b
+    print()
+
+fibonachi(10)
+  
 
